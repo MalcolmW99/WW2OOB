@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"> 
+<head>
+<title>WW2 Website</title>
+<meta http-equiv="description" content="page description" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<style type="text/css">@import "styles.css";</style>
+</head>
+
+<body>
+<h1 align = "center" style="background: cyan">World War 2 Database</h1>
+<?php include("includes/header.html");?>
+<?php include("includes/navigation.php");?>
+
+<div Style ='background: cyan'>
+This is the <B>INDEX</B> page <br><br>
+<h1 align = "center"> Introduction</h1>
+<h2> Programming Notes</h2>
+<p><b>This database must NOT be published on the internet</b><p>
+<p>This page will always display<p>
+<p>Desctibe the layout</p>
+<p>Describe Database</p>
+<p>Describe Navigation method</p>
+<p>Describe Colour Scheme</p>
+
+</div>
+
+
+<?php include("includes/header.html");?>
+
+</body>
+</html>

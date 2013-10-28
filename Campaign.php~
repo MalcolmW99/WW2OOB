@@ -1,0 +1,34 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"> 
+<head>
+<title>WW2 Website</title>
+<meta http-equiv="description" content="page description" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<style type="text/css">@import "styles.css";</style>
+</head>
+
+<body>
+<h1 align = "center" style="background: cyan">World War 2 Database</h1>
+<?php include("includes/header.html");?>
+<?php include("includes/navigation.php");?>
+<div Style ='background: cyan'>
+This is the <B>CAMPAIGN</B> page <br><br>
+<h1 align = "center"> Select Front, Campaign and Sub-Campaign - then a top level unit in that sub campaign</h1>
+<h2> Programming Notes</h2>
+<p>First select a Front</p>
+<p>Second select a Campaign from that Front</p>
+<p>Third select a SubCampaign from that Campaign</p>
+<p>Finally select a top level Unit from that Sub Campaign</p>
+<p> Store the selections in the Sesionvars table</p>
+<p>At any point you can change the selection - but doing so loses all selections below the one changed</p>
+<p>e.g. if you change Front you lose Campaign, Subcampaign and Unit.  If you change Campaign you lose SubCampaign and Unit.  If you change Subcampaign you lose only the Unit</p>
+<p>It is not permitted to leave the page until ALL four items are selected - may be a problem to achieve</p>
+
+</div>
+
+
+<?php include("includes/header.html");?>
+
+</body>
+</html>
