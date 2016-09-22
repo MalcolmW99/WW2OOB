@@ -44,7 +44,8 @@ $(function() {
 
 <div class = 'content'>
 This is the <B>INDEX</B> page <br><br>
-<h1> Introduction to WW2 Database</h1>
+<h1> Introduction to WW2 Database</h1>'
+<p> Test of where the changes are made</p>
 <?php
 	echo "<p>$UnitSelected</p>";
 ?>
